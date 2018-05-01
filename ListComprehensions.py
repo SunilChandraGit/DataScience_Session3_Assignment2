@@ -20,7 +20,7 @@ list2 = [x*y for x in "xyz" for y in range(1,5)]
 print(list2)
 
 #list2 to print each letter "xyz" , 1 to 4 times each grouped by number of times they are printed
-list3 = [x*y for y in range(1,5) for x in "xyz"]
+list3 = [x*y for y in (1,2,2,4) for x in "xyz"]
 
 #print list3
 print(list3)
